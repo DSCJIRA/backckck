@@ -1,0 +1,16 @@
+.yyy{
+    display: table; 
+    padding-left: 50px; 
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+
+
+  .title {
+    padding-left: 50px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 9rem;
+    color: white;
+  }

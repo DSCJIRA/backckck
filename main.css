@@ -1,0 +1,95 @@
+*{padding:0;margin:0}
+li{list-style:none}
+a{text-decoration:none;font-size:14px}
+
+.menu {
+    width: 1200px;
+    overflow: hidden;
+  }
+
+  .menu > li {
+    width: 16%; /*20*5=100%*/
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    background-color: #5778ff;
+  }
+
+  .menu a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .submenu > li {
+    line-height: 80px;
+    background-color:#5778ff;
+    opacity: 1;
+  }
+
+  .submenu {
+    height: 0; /*ul의 높이를 안보이게 처리*/
+    overflow: hidden;
+  }
+
+  .menu > li:hover {
+    background-color:#5778ff;
+    opacity: 1;
+  }
+  
+  .menu > li:hover .submenu {
+    height: 250px; /*서브메뉴 li한개의 높이 50*5*/
+    transition-duration: 1s;
+  }
+
+  .image_lo{
+    float: left;
+  }
+
+  .gae{
+    position:fixed;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    border:2px solid #94a9ff;
+    height: 500px;
+    overflow: auto;
+    padding-top: 20px;
+  }
+
+
+  .head{
+    height: 82px;
+    background-color: dimgray;
+  }
+
+  .menu_bar{
+    float: right;
+  }
+
+  .gae_1{
+    width: 42%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10px;
+  }
+
+  .gae_2{
+    width: 42%;
+    border: 1px solid black;
+    float: right;
+    margin-right: 10px;
+  }
+
+  div[class^="gae"]{
+    margin: 0 auto;
+  }
+
+  div[class^="gae_"]{
+    height: 490px;
+  }
+
+  .semi_title{
+    font-size: 2rem;
+    font: bold;
+  }

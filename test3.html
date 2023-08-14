@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="ko">
+    <link rel="stylesheet" href="./209212.css">
+<title>
+    DSCJIRA
+</title>
+<body>
+    <ul class="menu">
+        <a href="./main.html" class="return">돌아가기</a>
+        <li>
+            <a href="#">209축구</a>
+            <ul class="submenu">
+                <li><a href="./test1.html">본경기</a></li>
+                <li><a href="./test2.html">승부차기</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div class="yyy">
+        <iframe name="main_frame" id="main_frame" width="1240" height="630" src="https://www.youtube.com/embed/LSNpm4_5AWc?autoplay=1&rel=0&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <script>
+        function changeIframeUrl(url)
+        {
+            document.getElementById("main_frame").src = url;
+        }
+    </script>
+</body>
